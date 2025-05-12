@@ -116,7 +116,7 @@ function get_url() {
     SHA_URL="${BASE_URL}/${SHA_NAME}"
 }
 
-function get_rootfs() {
+function get_rootfs() {https://kali.download/nethunter-images/current/rootfs/kali-nethunter-rootfs-full-arm64.tar.xz}
     unset KEEP_IMAGE
     if [ -f ${IMAGE_NAME} ]; then
         if ask "Arquivo de imagem existente encontrado. Excluir e baixar um novo?" "N"; then
